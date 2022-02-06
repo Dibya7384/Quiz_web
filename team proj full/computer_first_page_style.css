@@ -1,0 +1,86 @@
+body{
+	font-family: arial;
+	font-style: 16px;
+	margin: 0;
+	/*background: linear-gradient(to right top,red);*/
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 100vh;
+	background-image: url("cc1.jpg");
+
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+.qa_box{
+	width: 400px;
+	padding: 20px;
+	min-height: 100px;
+	background-color: #B5D4FB;
+	box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+	border-radius: 15px;
+}
+
+.qa_header{
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	color: white;
+	background-color: #345781;
+	box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	margin: -20px -20px 20px;
+	border-radius: 15px 15px 0 0;
+	font-size: 20px;
+}
+
+
+.qa_ans_row:hover span{
+	background-color: #9ab5ac;
+
+}
+
+.qa_ans_row input:checked + span{
+	background-color: #f93c3c;
+}
+
+.qa_ans_row input[valid]:checked + span{
+	background-color: green;
+}
+
+.qa_footer{
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+.btn1{
+	border-style: solid;
+	border-color: black;
+	display: inline-block;
+	padding: 8px 20px;
+	background-color: #054696;
+	color: #fff;
+	border-radius: 15px;
+	cursor: pointer;	/*this line point to skip..user can use this for go to next question*/
+	transition: all 0.3s ease-out;
+}
+
+.btn1:hover{
+	background-color: #0B1D33;
+}

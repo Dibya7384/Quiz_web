@@ -1,0 +1,93 @@
+
+/*body{
+	font-family: arial;
+	font-style: 16px;
+	margin: 0;
+	background: linear-gradient(to right top,red);
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 100vh;
+}
+*/
+body{
+	font-family: arial;
+	font-style: 16px;
+	margin: 0;
+	/*background: linear-gradient(to right top,red);*/
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 100vh;
+	background-image: url("qq2.jpg");
+
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+/*
+.qa_header{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	margin: 20px 20px 20px 20px;
+	border-radius: 15px 15px 15px 15px;
+	font-size: 20px;
+}
+
+*/
+
+
+.qa_footer{
+	padding: 20px 0 0;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.qa_set{
+	font-size: 25px;
+	color: white;
+}
+
+.btn1{
+	border: 2px solid black;
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	padding: 15px 15px;
+	background-color: white;
+	color: black;
+	border-radius: 30px;
+	cursor: pointer;	/*this line point to skip..user can use this for go to next question*/
+	transition: all 0.3s ease-out;
+}
+
+.btn1:hover{
+	background-color: #9BA3A7;
+}
+
+
+/*
+
+.qa_set.active{
+	display: block;
+}
+*/
